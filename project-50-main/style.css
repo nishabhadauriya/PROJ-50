@@ -1,0 +1,40 @@
+h1{
+    font-family: Verdana;
+    font-weight: lighter;
+    background-color: grey;
+    font-style: italic;
+    color: coral;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.grid img{
+    border: 2px solid #000;
+    border-radius: 50px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.origami{
+    width: 350px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    font-family: fantasy;
+}
